@@ -1,0 +1,16 @@
+
+
+<div class="card mb-4"
+(click)="onSelectFairs(getFairs)">
+    <div class="card-body">
+        <h4> {{getFairs.fairName}} </h4>
+        <div class="content">
+            <p class="m-0">
+                Event Type : {{getFairs.type}}
+            </p>
+            <p class="m-0">
+                Date : {{getFairs.startDate | date}}
+            </p>
+        </div>
+    </div>
+</div>
